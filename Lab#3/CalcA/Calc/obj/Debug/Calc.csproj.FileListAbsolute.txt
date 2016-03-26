@@ -1,9 +1,0 @@
-C:\Users\Valera\Desktop\VS\CalcA\Calc\bin\Debug\Calc.exe.config
-C:\Users\Valera\Desktop\VS\CalcA\Calc\bin\Debug\Calc.exe
-C:\Users\Valera\Desktop\VS\CalcA\Calc\bin\Debug\Calc.pdb
-C:\Users\Valera\Desktop\VS\CalcA\Calc\obj\Debug\Calc.csprojResolveAssemblyReference.cache
-C:\Users\Valera\Desktop\VS\CalcA\Calc\obj\Debug\Calc.Form1.resources
-C:\Users\Valera\Desktop\VS\CalcA\Calc\obj\Debug\Calc.Properties.Resources.resources
-C:\Users\Valera\Desktop\VS\CalcA\Calc\obj\Debug\Calc.csproj.GenerateResource.Cache
-C:\Users\Valera\Desktop\VS\CalcA\Calc\obj\Debug\Calc.exe
-C:\Users\Valera\Desktop\VS\CalcA\Calc\obj\Debug\Calc.pdb
