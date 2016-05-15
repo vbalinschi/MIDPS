@@ -1,0 +1,68 @@
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/pokermon"
+    android:clickable="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/menu_title"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_play"
+        android:id="@+id/btnplay"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_about"
+        android:id="@+id/btnabout"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/btnlista"
+        android:layout_alignLeft="@+id/btnlista"
+        android:layout_alignStart="@+id/btnlista"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_other"
+        android:id="@+id/btnlista"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/btnplay"
+        android:layout_alignLeft="@+id/btnplay"
+        android:layout_alignStart="@+id/btnplay"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_exit"
+        android:id="@+id/btnexit"
+        android:layout_below="@+id/btnabout"
+        android:layout_alignLeft="@+id/btnabout"
+        android:layout_alignStart="@+id/btnabout"
+        android:layout_alignRight="@+id/btnabout"
+        android:layout_alignEnd="@+id/btnabout" />
+
+</RelativeLayout>
